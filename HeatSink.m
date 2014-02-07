@@ -5,13 +5,13 @@ clc
 
 %**System Paremeters**
 TDP = 125.0;           % Thermal Design Power, W
-NumFins = 5;           % Number of heat sink fins
+NumFins = 4;           % Number of heat sink fins
 L = 7/100;             % Total length of domain (CPU + heat sink), m
 L_CPU = 3/100;         % Length of CPU region, m
 thick = 0.2/100;       % Thickness of heat sink fin, m
 
 %**Material Parameters**
-k_Metal = 160.;               % Thermal conductivity of Metal, W/(m*K)
+k_Metal = 150.;               % Thermal conductivity of Metal, W/(m*K)
 density_Metal = 2700.;        % Density of metal, kg/m^3
 specific_heat_Metal = 895.0;  % Specific heat of metal, J/(kg*K)
 alpha_Metal = k_Metal/(density_Metal*specific_heat_Metal);   % Thermal diffusivity of Metal, m^2/s
