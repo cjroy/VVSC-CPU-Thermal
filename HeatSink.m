@@ -8,7 +8,7 @@ TDP = 125.0;           % Thermal Design Power, W
 NumFins = 5;           % Number of heat sink fins
 L = 7/100;             % Total length of domain (CPU + heat sink), m
 L_CPU = 3/100;         % Length of CPU region, m
-thick = 0.3/100;       % Thickness of heat sink fin, m
+thick = 0.2/100;       % Thickness of heat sink fin, m
 
 %**Material Parameters**
 k_Metal = 160.;               % Thermal conductivity of Metal, W/(m*K)
