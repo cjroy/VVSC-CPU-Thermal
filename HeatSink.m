@@ -6,7 +6,7 @@ clc
 %**System Paremeters**
 TDP = 250.0;           % Thermal Design Power, W
 NumFins = 8;           % Number of heat sink fins
-L = 7/100;             % Total length of domain (CPU + heat sink), m
+L = 9/100;             % Total length of domain (CPU + heat sink), m
 L_CPU = 3/100;         % Length of CPU region, m
 thick = 0.32/100;       % Thickness of heat sink fin, m
 
